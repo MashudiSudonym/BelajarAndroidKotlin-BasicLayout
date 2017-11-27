@@ -14,6 +14,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        actionBar.title = "Google Pixel"
+        supportActionBar?.title = "Google Pixel"
     }
 }
